@@ -1,5 +1,9 @@
 apply plugin: "java"
 
+// Semantic Versioning - http://semver.org/
+version = "1.0.0-SNAPSHOT"
+
 task wrapper(type: Wrapper) {
-    gradleVersion = "1.10"
+    gradleVersion = "1.11"
 }
+
